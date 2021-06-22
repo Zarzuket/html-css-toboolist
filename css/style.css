@@ -38,6 +38,7 @@ margin: 5px;
 padding: 6px;
 border-radius: 5px;
 border: none;
+margin-left: 20px;
 
 }
 
@@ -47,6 +48,7 @@ border: none;
     border-radius: 5px;
     border-width: thin;
     color:grey;
+    margin-left: 20px;
 }
 
 .title_list{
@@ -57,10 +59,12 @@ border: none;
 .lists{
     list-style: none;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .list_item{
     margin-top: 5px;
+    padding: 10px;
 }
 
 .clicking_list{
@@ -100,13 +104,21 @@ z
 .check_mark{
     border: 1px solid green;
     display: inline-block;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
     color: green;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
 }
 
 .x_mark{
     border: 1px solid red;
     display: inline-block;
     border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
     color: red;
 }
