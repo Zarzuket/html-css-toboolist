@@ -9,8 +9,7 @@ body{
     background-color: grey;
 }
 .container_logo{
-    margin: auto;
-    border: 2px solid red;
+    margin: auto;   
     height: 100px;
     background-color: white;
 }
@@ -52,11 +51,16 @@ border: none;
 
 .title_list{
     margin-top: 40px;
+
 }
 
 .lists{
     list-style: none;
     margin-bottom: 20px;
+}
+
+.list_item{
+    margin-top: 5px;
 }
 
 .clicking_list{
@@ -74,23 +78,23 @@ border: none;
 }
 
 ._purple{
-    background-color: purple;
+    background-color: rgb(156, 114, 228);
 }
 
 ._orange{
-    background-color: orange;
+    background-color: rgb(242, 158, 51);
 }
-
+z
 ._green{
-    background-color: greenyellow;
+    background-color: rgb(100, 192, 169);
 }
 
 ._pink{
-    background-color: pink;
+    background-color: rgb(216,99,161)
 }
 
 ._lime{
-    background-color: lime;
+    background-color: rgb(176, 201, 38);
 }
 
 .check_mark{
